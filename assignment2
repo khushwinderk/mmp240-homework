@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Through The Lens.</title>
+ </head>
+ <body>
 
+ <div id="heading">
+  <h1>My name is Khushwinder Kaur and I love photography.</h1>
+  <p>Here are a couple of images of my work. Feel free to browse and enjoy.</p>
+  </div>
+
+<div id="content">
+<img src="images/flowers.png" alt="flowers">
+<img src="images/bridge.png" alt="bridge">
+<img src="images/leaves.png" alt="flowers">
+</div>
+ 
+<p> <a href="http://instagram.com/hellakhush"> For more check out my Instragram profile!</a></p>
+
+<div id="list">
+ <h2> My other hobbies.</h2>
+ <ol>
+  <li> Cooking</li>
+  <li> Reading</li>
+  <li> Watching movies</li>
+  <li> Traveling</li>
+  </ol>
+</div>
+
+
+ </body>
+</html>
+
+<footer> Made by KhushwinderKaur (C)</footer>
