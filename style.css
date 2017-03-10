@@ -1,0 +1,85 @@
+html, body { padding: 0; margin: 0; }
+.image-grid div {
+  width: 25%;
+  height: 240px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image01 { background-image: url('illusion.gif'); }
+.image02 { background-image: url('illusion.gif'); }
+.image03 { background-image: url('illusion.gif'); }
+.image04 { background-image: url('illusion.gif'); }
+.image05 { background-image: url('illusion.gif'); }
+.image06 { background-image: url('illusion.gif'); }
+.image07 { background-image: url('illusion.gif'); }
+.image08 { background-image: url('illusion.gif'); }
+.image09 { background-image: url('illusion.gif'); }
+.image10 { background-image: url('illusion.gif'); }
+.image11 { background-image: url('illusion.gif'); }
+.image12 { background-image: url('illusion.gif'); }
+
+@media screen and (max-width: 400px) {
+  .image-grid {
+    flex-direction: column;
+    flex-wrap: no-wrap;
+  }
+  .image-grid div { width: 100%; }
+}
+
+.pretty-header {
+   display: table;
+    margin:auto;
+}
+
+.pretty-header .top-title {
+    display: inline-block;
+    float:left;
+    width: 100%;
+    text-align: center;
+}
+
+.pretty-header .top-title:before {
+    content:'';
+    background:#000;
+    display: inline-block;
+    height: 5px;
+    min-width: 100px;
+    margin: 10px 5px;
+    float:left;
+}
+
+.pretty-header .top-title:after {
+    content:'';
+    background:#000;
+    display: inline-block;
+    height: 5px;
+    min-width: 100px;
+    margin: 10px 5px;
+    float:right;
+}
+
+.pretty-header .big-title {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-left: 5px solid #000;
+    border-right: 5px solid #000;
+    border-bottom: 5px solid #000;
+}
+
+.footer{
+  height:20px;
+  background:black;
+  color:white;
+  padding:10px;
+  text-align:center;}
